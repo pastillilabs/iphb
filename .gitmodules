@@ -1,0 +1,3 @@
+[submodule "libiphb"]
+	path = libiphb
+	url = https://git.sailfishos.org/mer-core/libiphb.git
