@@ -17,5 +17,5 @@ OTHER_FILES += \
     LICENSE \
     README.md \
 
-target.path = /usr/share/$${HARBOUR_NAME}/lib
++target.path = /usr/share/harbour-$${APPNAME}application/lib
 INSTALLS += target
