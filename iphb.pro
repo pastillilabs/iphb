@@ -11,9 +11,11 @@ INCLUDEPATH += $$PWD/src
 HEADERS += $$files($$PWD/libiphb/src/*.h)
 SOURCES += $$files($$PWD/libiphb/src/*.c)
 
-OTHER_FILES += AUTHORS
-OTHER_FILES += LICENSE
-OTHER_FILES += README.md
+OTHER_FILES += \
+    .gitignore \
+    AUTHORS \
+    LICENSE \
+    README.md \
 
 target.path = /usr/share/$${HARBOUR_NAME}/lib
 INSTALLS += target
